@@ -1,0 +1,12 @@
+<div class="container mt-5">
+  <h1 class="text-center mb-5">Coach's answer</h1>
+  <div class="alert alert-info w-50 mx-auto">
+    <strong>Your question :</strong> <%= @question %>
+  </div>
+  <div class="alert alert-warning w-50 mx-auto">
+    <strong>Coach :</strong> <%= @answer %>
+  </div>
+  <div class="text-center mt-4">
+    <%= link_to "Poser une autre question", ask_path, class: "btn btn-secondary" %>
+  </div>
+</div>
